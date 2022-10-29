@@ -1,0 +1,652 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ############# Header Section ################ */
+.navbar-brand{
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    margin-left: 50px;
+}
+.navbar-brand:hover{
+    color: black;
+}
+.navbar-brand .fork{
+    color: #27ae60;
+}
+.navbar{
+    background: white;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.navbar-nav {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+}
+.navbar-nav a{
+    font-size: 17px;
+    color: #636e72;
+    margin: 3px;
+}
+.navbar-nav a:hover{
+    color: #27ae60;
+}
+.icons{
+    margin-right: 70px;
+}
+.icons .fas{
+    margin-right: 5px;
+    justify-content: space-evenly;
+    grid-gap: 10px;
+}
+.icon{
+    font-size: 18px;
+    background: #f7f7f7;
+    padding: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.icon:hover{
+    background: #27ae60;
+    color: white;
+    transition: 0.5s linear;
+}
+.chopstick{
+   float: right;
+  margin-top: -700px;
+
+}
+.momo1{
+      width: 800px;
+      height: 600px;
+      margin-left: 20px;
+      margin-top: 100px;
+}
+
+/* ############# Foodies Section ################ */
+
+.foodies_section{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.welcome-p{
+    color: #27ae60;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.welcome-h1{
+    font-weight: 800;
+}
+.welcome-p2{
+    color: #636e72;
+    font-size: 15px;
+}
+.welcome-btn{
+    background: #27ae60;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    margin-top: 25px;
+    display: block;
+    width: 130px;
+    text-align: center;
+}
+.welcome-btn:hover{
+    background: #07143a;
+    color: white;
+    transition: 0.5s linear;
+}
+.foodies_section a{
+    text-decoration: none;
+}
+
+.menu{
+    margin-left: -50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    grid-gap: 20px;
+}
+.menues{
+    background: #f7f7f7;
+    padding: 10px 30px;
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+   text-align: center;
+}
+.menues img{
+   height: 4rem;
+}
+.menu2{
+    margin-right: 440px;
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 20px;
+}
+.menues p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.menues:hover{
+    background: #27ae60;
+    color: white;
+    transition: 0.5s linear;
+}
+/* ############# Choosing Section ################ */
+
+.choosing_section{
+    background: #f7f7f7;
+    margin-top: 60px;
+}
+.choosing_img{
+    margin-left: 100px;
+    padding-top: 50px;
+    width: 850px;
+    height: 650px;
+}
+
+
+.choose_us{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.choose-p{
+    font-family: "Satisfy", cursive;
+    color: #27ae60;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.choose-h1{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.choose-p2{
+    color: #636e72;
+    font-size: 15px;
+}
+.choose-btn{
+    background: #27ae60;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    margin-top: 25px;
+    display: block;
+    width: 130px;
+    text-align: center;
+}
+.choose-btn:hover{
+    background: #07143a;
+    color: white;
+    transition: 0.5s linear;
+    text-decoration: none;
+}
+
+
+.choose_menu{
+    margin-left: -50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    grid-gap: 20px;
+    
+}
+.choose_menues{
+    background: white;
+    padding: 20px 10px;
+    width: 250px;
+    border-radius: 5px;
+    cursor: pointer;
+   text-align: center;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.choose_menues img{
+   height: 2.5rem;
+ padding-right: 15px;
+}
+.choose_menues p{
+    font-size: 18px;
+    font-weight: bold;
+}
+.support{
+    margin-right: 540px;
+    margin-bottom: 30px;
+}
+/* ############# Popular Section ################ */
+.popular_section{
+    margin-top: 50px;
+}
+.popular-p{
+    font-family: "Satisfy", cursive;
+    color: #27ae60;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+}
+.popular-h1{
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+}
+.popular_cards{
+    display: flex;
+    width: 1000px;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    text-align: center;
+} 
+.popular_row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.popular_card{
+    border: none;
+    height: 380px;
+    border-radius: 5px;
+    margin: 10px 20px;
+    background: #f7f7f7;
+}
+.popular_card:hover{
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+    transition: 0.5s;
+}
+.popular_img1{
+    margin-bottom: 0;
+    margin-left: -20px;
+    float: right;
+} 
+.popular_img2{
+    height: 150px;
+    width: 200px;
+  margin-top: 40px;
+    margin-left: 40px;
+} 
+.fa-heart{
+    font-size: 25px;
+    color: #666;
+    margin-top: -180px;
+    margin-left:230px;
+    cursor: pointer;
+}
+.fa-heart:hover{
+  color: #27ae60;
+  transition: 0.5s linear;
+}
+.popular_title{
+    font-weight: bold;
+    font-size: 20px;
+    color: #130f40;
+}
+.fa-star{
+    color: gold;
+    font-size: 18px;
+    text-align: center;
+
+}
+.icons{
+    margin-left: 55px;
+}
+.popular-text{
+    font-size: 20px;
+    margin-top: 8px;
+}
+.popular_btn{
+    background: #27ae60;
+    color: white;
+    margin-top: -5px;
+}
+.popular_btn:hover{
+    background: #07143a;
+    color: white;
+    transition: 0.5s linear;
+}
+.popular_body{
+    margin-top: 150px;
+}
+/* ############# AD Section ################ */
+.banner_img{
+        margin-top: 80px;
+       margin-left: 80px;
+}
+.Ad_btn{
+    background: #27ae60;
+    color: white;
+    margin-top: -162px;
+    margin-left: 160px;
+    width: 126px;
+    height: 40px;
+}
+.Ad_btn:hover{
+    background: #07143a;
+    color: white;
+    transition: 0.5s linear;
+}
+
+/* ############# Offer Section ################ */
+.offer_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 100px;
+
+}
+.offer_imgs{
+    margin: 0 10px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+.offer_imgs .offer_img{
+    width: 100%;
+    height: 65vh;
+    -o-object-fit: cover;
+    object-fit: cover;
+    transition: 0.7s;
+    border-radius: 10px;
+}
+.offer_section .offer_imgs:hover .offer_img{
+    transform: scale(1.2);
+}
+.offer_text{
+   margin-top: -400px;
+   margin-left: 40px;
+   color: #fff;
+       position: absolute;
+}
+.offer_text_fries{
+    color: black;
+}
+.offer_text h5{
+    font-size: 25px;
+}
+.offer_text h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+.offer_btn{
+    background: #27ae60;
+    color: white;
+}
+.offer_btn:hover{
+    background: #07143a;
+    color: white;
+    transition: 0.5s linear;
+}
+
+/* ############# Menu Section ################ */
+.menu_section{
+    margin-top: 60px;
+}
+.top_menu{
+  text-align: center;
+}
+.menu-p{
+    font-family: "Satisfy", cursive;
+    color: #27ae60;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.menu-h1{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: -10px;
+}
+
+
+.best_menu{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    grid-gap: 20px;    
+}
+.top_menu2{
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 20px;
+}
+.top_menues{
+    background: #f7f7f7;
+    padding:10px;
+    width: 300px;
+    height: 140px;
+    border-radius: 5px;
+    cursor: pointer;
+   text-align: center;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.top_menues:hover{
+    background: #07143a;
+  color: white;
+}
+.top_menues img{
+    height: 100px;
+  padding-right: 15px;
+ }
+ .top_menues p{
+     font-size: 18px;
+     font-weight: bold;
+ }
+.menu_span{
+    color: #27ae60;
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: -35px;
+    display: block;
+    margin-left: 50px;
+}
+
+/* ############# Home Delivery Section ################ */
+.delivery_section{
+    margin-top: 70px;
+}
+.delivery_menu{
+    margin-left: -50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    grid-gap: 20px;
+}
+.delivery_menues{
+    background: #f7f7f7;
+    padding: 30px;
+    width: 280px;
+    border-radius: 5px;
+    cursor: pointer;
+   text-align: center;
+}
+.delivery_menues img{
+   height: 4rem;
+}
+.menues p{
+    font-size: 18px;
+    font-weight: bold;
+}
+/* ------------ Form ------------ */
+.food_form{
+    width: 87.5%;
+    background: #f7f7f7;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.form_label{
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+}
+.form-group input{
+    border: none;
+    outline:0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+
+}
+.form-group textarea{
+    border: none;
+    outline:0px !important;
+    -webkit-appearance: none;
+    box-shadow: none !important;
+
+}
+.form-group input:active{
+    outline: none;
+}
+.address_form {
+    height: 150px;
+}
+.food_form .address_form::placeholder {
+    margin-top: 50px;
+    display: block;
+}
+.form-group iframe{
+    width: 410px;
+}
+
+.form_btn{
+    background: #27ae60;
+    color: white;
+}
+.form_btn:hover{
+    background: #07143a;
+    color: white;
+    transition: 0.5s linear;
+}
+
+/* ############# Footer Section ################ */
+ .footer{
+    margin-top: 30px;
+    background: #f7f7f7;
+}
+.footer .footer_news{
+    text-align: center;
+    font-size: 30px;
+    color: #130f40;
+    padding-top: 30px;
+}
+
+.footer_lists{
+    display: flex;
+    grid-gap: 80px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.footer_ul li{
+    list-style-type: none;
+    padding: 10px;
+
+}
+.footer_li{
+    transition: 300ms ease;
+}
+.footer_li:hover{
+  transform: translateX(10px);}
+.footer_ul .ul_h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer_ul li a{
+    text-decoration: none;
+    color: #666;
+    font-size: 15px;
+}
+.footer_ul li a:hover{
+  color: #27ae60;
+}
+.footer_ul li span{
+    text-decoration: none;
+    color: #666;
+    font-size: 15px;
+}
+.fa-arrow-right{
+    color: #27ae60;
+}
+
+
+/* SEARCH SECTION */
+.search_container{
+    width: 100%;
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search_input{
+    width: 500px;
+    height: 50px;
+    padding-left: 10px;
+    background: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.search_btn{
+    width: 150px;
+    height: 50px;
+    transform: translateX(-10px);
+    border: none;
+    border-radius: 5px;
+}
+
+.search_input:active{
+    outline: none;
+    border: none;
+}
+
+.footer_icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_icons .fab{
+    margin-right: 5px;
+    justify-content: space-evenly;
+    grid-gap: 20px;
+}
+.footer_icon{
+    font-size: 18px;
+    background: #27ae60;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+.footer_icon:hover{
+    background: #07143a;
+    color: white;
+    transition: 0.2s linear;
+}
+.copyright{
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+.copyright p{
+    color: #636e72;
+    font-size: larger;
+}
+
+
+
